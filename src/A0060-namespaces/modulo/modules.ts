@@ -13,10 +13,3 @@ namespace MeuNameSpace {
     export const nomeDoNamespace = 'Nome no outro namespace';
   }
 }
-
-const pessoaDoNamespace = new MeuNameSpace.PessoaDoNamespace('Neilson');
-console.log(pessoaDoNamespace);
-console.log(MeuNameSpace.nomeDoNamespace);
-console.log(MeuNameSpace.OutroNamespace.nomeDoNamespace);
-
-export default 1;
