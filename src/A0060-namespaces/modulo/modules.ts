@@ -7,9 +7,10 @@ namespace MeuNameSpace {
   }
 
   const pessoa = new PessoaDoNamespace('Neilson');
-  console.log(pessoa);
 
   export namespace OutroNamespace {
     export const nomeDoNamespace = 'Nome no outro namespace';
   }
 }
+
+const constDoNamespace = 'Valor da const do namespace';

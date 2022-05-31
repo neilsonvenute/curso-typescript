@@ -2,3 +2,4 @@
 /// <reference path="modulo/modules.ts"/>
 
 console.log(MeuNameSpace.nomeDoNamespace);
+console.log(constDoNamespace);
